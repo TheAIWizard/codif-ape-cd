@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: etl-prod-logs-monitoring
+  name: etl-monitoring
 spec:
   project: default
   source:
     repoURL: https://github.com/InseeFrLab/codif-ape-cd.git
     targetRevision: main
-    path: etl-prod-logs-monitoring
+    path: etl-monitoring
   destination:
     server: https://kubernetes.default.svc
     namespace: projet-ape
