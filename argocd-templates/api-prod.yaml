@@ -5,9 +5,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/InseeFrLab/codif-ape-API.git
-    targetRevision: deploy-prod-api
-    path: deployment
+    repoURL: https://github.com/InseeFrLab/codif-ape-cd.git
+    targetRevision: main
+    path: api-prod
   destination:
     server: https://kubernetes.default.svc
     namespace: projet-ape

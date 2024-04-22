@@ -5,8 +5,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/InseeFrLab/codif-ape-API.git
-    targetRevision: HEAD
+    repoURL: https://github.com/InseeFrLab/codif-ape-cd.git
+    targetRevision: main
     path: etl-sampling
   destination:
     server: https://kubernetes.default.svc
