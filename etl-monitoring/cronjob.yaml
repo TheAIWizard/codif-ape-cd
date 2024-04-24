@@ -15,7 +15,8 @@ spec:
             command:
               - /bin/sh
               - -c
-              - | 
+              - |
+                export MC_HOST_s3=https://$AWS_ACCESS_KEY_ID:$AWS_SECRET_ACCESS_KEY@$AWS_S3_ENDPOINT &&
                 cd /tmp &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract_prod_logs.py &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/send_batch.py &&
