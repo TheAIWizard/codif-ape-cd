@@ -19,6 +19,7 @@ spec:
               - "-c"
               - |
                 cd /tmp &&
+                wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-annotation/main/requirements.txt &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-annotation/main/instructions.txt &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-annotation/main/taxonomy.xml &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-annotation/main/var_index_mapping/correspondance_intitule_nature_activite.json &&
