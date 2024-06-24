@@ -4,7 +4,7 @@ metadata:
   name: etl-sampling
 spec:
   timeZone: "Europe/Paris"
-  schedule: "35 14 * * 1"
+  schedule: "50 14 * * 1"
   concurrencyPolicy: Forbid
   jobTemplate:
     spec:
@@ -23,8 +23,12 @@ spec:
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/requirements.txt &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract_db.py &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract_db.sh &&
+                wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract-db-otm.py &&
+                wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract-db-otm.sh &&
                 chmod +x extract_db.sh &&
-                ./extract_db.sh
+                chmod +x extract-db-otm.sh &&
+                ./extract_db.sh &&
+                ./extract-db-otm.sh
             volumeMounts:
               - name: tmp
                 mountPath: "/tmp"
