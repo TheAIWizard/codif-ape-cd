@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: label-studio
+  name: etl-label-studio
 spec:
   project: default
   source:
