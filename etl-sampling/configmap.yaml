@@ -10,3 +10,13 @@ data:
   MONTH_INTERVAL: "1"
   DATA_SAMPLED_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/NAF2008/data-samples/queue/
   DATA_SAMPLED_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/NAF2008/data-samples/archive/
+  DATA_SAMPLED_OTM_CG_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/CG/data-samples/queue/
+  DATA_SAMPLED_OTM_CG_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/CG/data-samples/queue/
+  DATA_SAMPLED_OTM_AGRI_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/AGRI/data-samples/queue/
+  DATA_SAMPLED_OTM_AGRI_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/AGRI/data-samples/queue/
+  DATA_SAMPLED_OTM_PSA_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/PSA/data-samples/queue/
+  DATA_SAMPLED_OTM_PSA_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/PSA/data-samples/queue/
+  DATA_SAMPLED_OTM_SOCET_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/SOCET/data-samples/queue/
+  DATA_SAMPLED_OTM_SOCET_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/SOCET/data-samples/queue/
+  DATA_SAMPLED_OTM_SSP_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/SSP/data-samples/queue/
+  DATA_SAMPLED_OTM_SSP_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/rev-NAF2025/SSP/data-samples/queue/
