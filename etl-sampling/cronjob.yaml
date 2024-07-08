@@ -4,7 +4,7 @@ metadata:
   name: etl-sampling
 spec:
   timeZone: "Europe/Paris"
-  schedule: "03 19 08 7 *"
+  schedule: "10 20 08 7 *"
   concurrencyPolicy: Forbid
   jobTemplate:
     spec:
