@@ -7,7 +7,7 @@ data:
   NAMESPACE: projet-ape
   AWS_S3_ENDPOINT: minio.lab.sspcloud.fr
   NUMBER_TO_ANNOTATE_NAF2008: "1701"
-  NUMBER_TO_ANNOTATE_NAF2025: "6250"
+  NUMBER_TO_ANNOTATE_NAF2025: "5000"
   MONTH_INTERVAL: "1"
   DATA_SAMPLED_QUEUE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/NAF2008/data-samples/queue/
   DATA_SAMPLED_ARCHIVE_PATH: s3/projet-ape/label-studio/annotation-campaign-2024/NAF2008/data-samples/archive/
