@@ -23,6 +23,7 @@ spec:
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/transform_logs.py &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/etl_monitoring.sh &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract-train-data-otm.py &&
+                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/collect-train-data-otm.py &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/extract_test_data.py &&
                 wget https://raw.githubusercontent.com/InseeFrLab/codif-ape-API/main/utils/send_batch_test_data.py &&
                 chmod +x etl_monitoring.sh &&
