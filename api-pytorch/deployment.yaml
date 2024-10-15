@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: codification-ape-model-deployment-pytorch
+  namespace: user-meilametayebjee
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: codification-ape-model-deployment-pytorch
+  template:
+    metadata:
+      labels:
+        app: codification-ape-model-deployment-pytorch
+    spec:
+      containers:
+        - name: codif-ape-app-pytorch
+          image: thomasfaria/codification-ape-api:fasttext-pytorch
+          imagePullPolicy: Always
+          env:
+            - name: MLFLOW_TRACKING_URI
+              value: https://user-meilametayebjee-mlflow.user.lab.sspcloud.fr
+            - name: MLFLOW_MODEL_NAME
+              value: fasttext-pytorch
+            - name: MLFLOW_MODEL_VERSION
+              value: "7"  # Enclose the value in quotes
+            - name: AUTH_API
+              value: "False"
+          resources:
+            limits:
+              cpu: "2000m"
+              memory: "20Gi"
