@@ -17,7 +17,7 @@ data:
   S3_BUCKET_PREFIX_ANNOTATION_NACE_REV: "label-studio/annotation-campaign-2024/rev-NAF2025"
   LABEL_STUDIO_SERVICE_ENDPOINT: http://projet-ape-851712.user.lab.sspcloud.fr # replace with your service endpoint
   LABEL_STUDIO_SERVICE_ENDPOINT_REV_NAF2025_AGRI: http://campagne-annotation-rev-naf-2025-agri.user.lab.sspcloud.fr
-  LABEL_STUDIO_SERVICE_ENDPOINT_REV_NAF2025_CG: http://campagne-annotation-rev-naf-2025-cg.user.lab.sspcloud.fr
+  LABEL_STUDIO_SERVICE_ENDPOINT_REV_NAF2025_CG: http://campagne-annotation-naf-2025-formation.user.lab.sspcloud.fr
   LABEL_STUDIO_SERVICE_ENDPOINT_REV_NAF2025_PSA: http://campagne-annotation-rev-naf-2025-psa.user.lab.sspcloud.fr
   LABEL_STUDIO_SERVICE_ENDPOINT_REV_NAF2025_RSV: http://campagne-annotation-rev-naf-2025-rsv.user.lab.sspcloud.fr
   LABEL_STUDIO_SERVICE_ENDPOINT_REV_NAF2025_SOCET: http://campagne-annotation-rev-naf-2025-socet.user.lab.sspcloud.fr
