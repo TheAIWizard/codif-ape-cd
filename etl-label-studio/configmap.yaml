@@ -4,7 +4,7 @@ metadata:
   name: configmap-label-studio
   namespace: user-nrandriamanana
 data:
-  namespace: projet-ape
+  namespace: user-nrandriamanana
   S3_ENDPOINT: https://minio.lab.sspcloud.fr
   AWS_S3_ENDPOINT: minio.lab.sspcloud.fr
   AWS_DEFAULT_REGION: us-east-1
