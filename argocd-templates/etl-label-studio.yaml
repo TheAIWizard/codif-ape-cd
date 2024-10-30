@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/InseeFrLab/codif-ape-cd.git
+    repoURL: https://github.com/TheAIWizard/codif-ape-cd.git
     targetRevision: main
     path: etl-label-studio
   destination:
