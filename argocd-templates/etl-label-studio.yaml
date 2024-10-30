@@ -10,7 +10,7 @@ spec:
     path: etl-label-studio
   destination:
     server: https://kubernetes.default.svc
-    namespace: projet-ape
+    namespace: user-nrandriamanana
   syncPolicy:
     automated:
       selfHeal: true
